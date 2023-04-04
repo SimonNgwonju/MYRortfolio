@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: azure; */
+  background-image: -moz-linear-gradient();
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+header{
+    color: rgb(184, 160, 160);
+    padding: 20px;
+    background-color: #333;
+    
+}
+header h1{
+    font-size: 32px;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 900px;
+}
+nav li{
+    display: inline-block;
+     margin-right: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+section{
+    padding: 50px;
+}
+section a{
+    padding: 420px;
+    text-decoration: none;
+    
+}
+section p {
+     padding-bottom: 20px;
+   
+     
+    
+}
+section h2{
+    font-size: 35px;
+    color: #333;
+    text-align: center;
+}
+section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+section li{
+    flex-basis: calc(50%-20px);
+    margin-right: 40PX;
+    margin-bottom: 40px;
+    background-color:#fff;
+    padding: 20px;
+    box-shadow: o 2px 6px rgba(0, 0,0,0.1);
+
+}
+section li h3{
+    max-width: 100%;
+}
+section li h3{
+    font-size: 24px;
+    margin-top: 0;
+}
+section li p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+form{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction:column;
+    padding-left: 250px;
+}
+form label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+form input,form textarea{
+    font-size: 5px ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+form textarea{
+    height: 50px;
+}
+form button{
+    font-size: 18px;
+    background-color: #333;
+    padding: 10PX;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    
+
+}
+form button:hover{
+background-color: gray;
+}
+footer{
+    text-align: center;
+    /* padding-left: 500px; */
+}
+footer li{
+    text-decoration: none;
+    text-align: center; 
+    /* padding-left: 200px; */
+    display: inline-block;
+    margin-right: 120px;
+
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+/* @media screen and (max-width: 600px){
+    nav li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    section li{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    
+} */
