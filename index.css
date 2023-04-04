@@ -131,7 +131,7 @@ footer a{
     text-decoration: none;
     color: black;
 }
-/* @media screen and (max-width: 600px){
+ @media screen and (max-width: 600px){
     nav li{
         display: block;
         margin-bottom: 10px;
@@ -141,4 +141,4 @@ footer a{
         margin-right: 0;
     }
     
-} */
+} 
